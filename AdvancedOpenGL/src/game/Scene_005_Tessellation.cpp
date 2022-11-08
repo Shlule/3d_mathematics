@@ -24,8 +24,9 @@ void Scene_005_Tessellation::load() {
     std::srand((int) std::time(nullptr));
     Assets::loadShader("assets/shaders/005_tessellation.vert", "assets/shaders/005_tessellation.frag",
                                 "assets/shaders/005_tessellation.tesc", "assets/shaders/005_tessellation.tese",
-                                "assets/shaders/005_tessellation.geom", "005_tessellation");
+                                "", "005_tessellation");
 
+    glPatchParameteri(GL_PATCH_VERTICES , 4);
     glCreateVertexArrays(1, &vao);
     glBindVertexArray(vao);
     glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
@@ -48,6 +49,7 @@ void Scene_005_Tessellation::handleEvent(const InputState &inputState) {
 
 void Scene_005_Tessellation::update(float dt) {
 }
+unsigned int cpt {0};
 
 void Scene_005_Tessellation::draw() {
     static const GLfloat bgColor[] = {0.0f, 0.0f, 0.2f, 1.0f};
@@ -55,5 +57,10 @@ void Scene_005_Tessellation::draw() {
 
     shader.use();
     glPointSize(5.0f);
-    glDrawArrays(GL_PATCHES, 0, 3);
+    GLint loc = glGetUniformLocation(shader.id,"innerTessellation");
+    double animation= sin(((double)cpt*3.0f)/60.0f)*5.0f+ 5;
+    glUniform1f(loc,animation);
+
+    glDrawArrays(GL_PATCHES, 0, 4);
+    cpt++;
 }

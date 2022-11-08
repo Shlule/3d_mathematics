@@ -19,10 +19,12 @@
 #define SHADER_COMP(s) PATH3(SHADER_PATH, s, EXT_COMP)
 #define SHADER_ID(s) STR(s)
 
-#define SCENE_NAME Scene_026_Snake
-#define SHADER_NAME IDENT(026_Snake)
+#define SCENE_NAME Scene_027_microBios
+#define SHADER_NAME IDENT(027_microBios)
 
 /**
+ * Scene_027_microBios
+ * Scene_026_Snake
  * Scene_025_ComputeShaderBoids
  * Scene_024_ComputeShaderRaytracing
  * Scene_023_ComputeShaderGrid

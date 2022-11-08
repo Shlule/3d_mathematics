@@ -1,6 +1,6 @@
-^D:\TD4\ELOUAN\OPENGL-TRAINING\ADVANCEDOPENGL\SRC\ENGINE\MATHS\CMAKELISTS.TXT
+^D:\ELOUAN\GIT\3D_MATHEMATICS\ADVANCEDOPENGL\SRC\ENGINE\MATHS\CMAKELISTS.TXT
 setlocal
-C:\Users\elouan.rogliano\scoop\apps\cmake\3.24.2\bin\cmake.exe -SD:/TD4/Elouan/opengl-training/AdvancedOpenGL -BD:/TD4/Elouan/opengl-training/AdvancedOpenGL/build --check-stamp-file D:/TD4/Elouan/opengl-training/AdvancedOpenGL/build/src/engine/maths/CMakeFiles/generate.stamp
+C:\Users\elouan.rogliano\scoop\apps\cmake\3.24.3\bin\cmake.exe -SD:/Elouan/Git/3d_mathematics/AdvancedOpenGL -BD:/Elouan/Git/3d_mathematics/AdvancedOpenGL/build --check-stamp-file D:/Elouan/Git/3d_mathematics/AdvancedOpenGL/build/src/engine/maths/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

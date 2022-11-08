@@ -1,6 +1,6 @@
-^D:\TD4\ELOUAN\OPENGL-TRAINING\ADVANCEDOPENGL\BUILD\CMAKEFILES\9AEB092C7539FCEE8CC1E5EEB3D1438C\GENERATE.STAMP.RULE
+^D:\ELOUAN\GIT\3D_MATHEMATICS\ADVANCEDOPENGL\BUILD\CMAKEFILES\38D3D64FDA91C539925F626F9FF870C5\GENERATE.STAMP.RULE
 setlocal
-C:\Users\elouan.rogliano\scoop\apps\cmake\3.24.2\bin\cmake.exe -SD:/TD4/Elouan/opengl-training/AdvancedOpenGL -BD:/TD4/Elouan/opengl-training/AdvancedOpenGL/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/TD4/Elouan/opengl-training/AdvancedOpenGL/build/OpenGLTraining.sln
+C:\Users\elouan.rogliano\scoop\apps\cmake\3.24.3\bin\cmake.exe -SD:/Elouan/Git/3d_mathematics/AdvancedOpenGL -BD:/Elouan/Git/3d_mathematics/AdvancedOpenGL/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Elouan/Git/3d_mathematics/AdvancedOpenGL/build/OpenGLTraining.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

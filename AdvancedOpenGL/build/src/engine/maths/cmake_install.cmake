@@ -1,4 +1,4 @@
-# Install script for directory: D:/TD4/Elouan/opengl-training/AdvancedOpenGL/src/engine/maths
+# Install script for directory: D:/Elouan/Git/3d_mathematics/AdvancedOpenGL/src/engine/maths
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

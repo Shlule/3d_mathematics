@@ -1,31 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\TD4\Elouan\opengl-training\AdvancedOpenGL\src\engine\maths\Matrix4.cpp">
+    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\maths\Matrix4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\TD4\Elouan\opengl-training\AdvancedOpenGL\src\engine\maths\Matrix4Row.cpp">
+    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\maths\Matrix4Row.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\TD4\Elouan\opengl-training\AdvancedOpenGL\src\engine\maths\Quaternion.cpp">
+    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\maths\Quaternion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\TD4\Elouan\opengl-training\AdvancedOpenGL\src\engine\maths\Vector2.cpp">
+    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\maths\Vector2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\TD4\Elouan\opengl-training\AdvancedOpenGL\src\engine\maths\Vector3.cpp">
+    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\maths\Vector3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\TD4\Elouan\opengl-training\AdvancedOpenGL\src\engine\maths\Vector4.cpp">
+    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\maths\Vector4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\TD4\Elouan\opengl-training\AdvancedOpenGL\src\engine\maths\CMakeLists.txt" />
+    <CustomBuild Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\maths\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{C5AC15F3-9C69-32AB-A39A-310694D90EA4}</UniqueIdentifier>
+      <UniqueIdentifier>{3B514B57-145D-36E4-9741-DA124BE66E37}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

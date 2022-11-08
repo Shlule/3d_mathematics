@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\TD4\Elouan\opengl-training\AdvancedOpenGL\build\CMakeFiles\8670731250939fda437aaa74f234ca8b\PACKAGE_force.rule">
+    <CustomBuild Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\build\CMakeFiles\2b593a28a56be1a6905977e31f51d59d\PACKAGE_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{E8796513-DBD6-31FF-A62A-8E1DDF0FE1CA}</UniqueIdentifier>
+      <UniqueIdentifier>{42EF4E0A-48A0-312C-95BF-AEFE26A1C1E4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

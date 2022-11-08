@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: D:/TD4/Elouan/opengl-training/AdvancedOpenGL
-BuildDirectory: D:/TD4/Elouan/opengl-training/AdvancedOpenGL/build
+SourceDirectory: D:/Elouan/Git/3d_mathematics/AdvancedOpenGL
+BuildDirectory: D:/Elouan/Git/3d_mathematics/AdvancedOpenGL/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: md8-2017-17
+Site: md8-2017-048
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-MSBuild
@@ -27,8 +27,8 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Users/elouan.rogliano/scoop/apps/cmake/3.24.2/bin/cmake.exe" "D:/TD4/Elouan/opengl-training/AdvancedOpenGL"
-MakeCommand: "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "C:/Users/elouan.rogliano/scoop/apps/cmake/3.24.3/bin/cmake.exe" "D:/Elouan/Git/3d_mathematics/AdvancedOpenGL"
+MakeCommand: C:\Users\elouan.rogliano\scoop\apps\cmake\3.24.3\bin\cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
