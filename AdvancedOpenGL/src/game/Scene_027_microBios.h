@@ -4,6 +4,7 @@
 #include "../engine/Scene.h"
 #include "../engine/Assets.h"
 #include "../engine/MeshObject.h"
+#include "../engine/Icosphere.h"
 
 class Scene_027_microBios : public Scene {
 public:
@@ -19,6 +20,7 @@ public:
     void setGame(Game *);
 
 private:
+    Icosphere icosphere;
     Game *game;
     GLuint vao;
     GLuint buffer;
@@ -27,6 +29,7 @@ private:
     MeshObject object;
 
     // Uniforms
+    Matrix4 transform;
     Matrix4 mvp;
     Matrix4 view;
     Matrix4 proj;

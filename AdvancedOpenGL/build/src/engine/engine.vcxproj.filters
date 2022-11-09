@@ -10,6 +10,9 @@
     <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\ComputeShader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\Icosphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

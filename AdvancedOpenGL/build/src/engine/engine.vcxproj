@@ -268,6 +268,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\Assets.cpp" />
     <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\Color.cpp" />
     <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\ComputeShader.cpp" />
+    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\Icosphere.cpp" />
     <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\Log.cpp" />
     <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\MeshObject.cpp" />
     <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\Shader.cpp" />
