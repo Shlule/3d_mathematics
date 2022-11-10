@@ -28,7 +28,7 @@ private:
     const float timeScale = 0.05f;
     MeshObject object;
 
-    std::vector<unsigned int> Faces;
+    GLsizei indexCount;
 
     // Uniforms
     Matrix4 transform;

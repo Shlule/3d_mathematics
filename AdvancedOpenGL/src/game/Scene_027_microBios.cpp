@@ -37,10 +37,12 @@ void Scene_027_microBios::handleEvent(const InputState &inputState) {
 
 void Scene_027_microBios::load() {
     std::srand((int) std::time(nullptr));
-    Assets::loadShader(SHADER_PATH_+"007_SpinningCube.vert", SHADER_PATH_+"007_SpinningCube.frag", "", "", "", SHADER_ID(SHADER_NAME));
+    Assets::loadShader(SHADER_VERT(SHADER_NAME),SHADER_PATH_+"007_SpinningCube.frag","","","", SHADER_ID(SHADER_NAME));
 
+    // create a VAO 
     glGenVertexArrays(1, &vao);
     glBindVertexArray(vao);
+    // set the projection matrix4
     proj = Matrix4::createPerspectiveFOV(70.0f, game->windowWidth, game->windowHeight, 0.1f, 1000.0f);
     vector<float> x = icosphere.computeIcosahedronVertices();
 
@@ -51,7 +53,7 @@ void Scene_027_microBios::load() {
         std::cout<<vertexPositions[i]<<'\n';
     }
 
-    Faces = {
+    static const GLushort Faces[] = {
         2, 1, 0,
         3, 2, 0,
         4, 3, 0,
@@ -73,7 +75,8 @@ void Scene_027_microBios::load() {
         5, 10, 9,
         1, 6, 10 };
 
-    int IndexCount = sizeof(Faces)/ sizeof(Faces[0]);
+    indexCount = sizeof(Faces)/ sizeof(Faces[0]);
+    
     
     
     // create VBO for positions:
@@ -88,10 +91,12 @@ void Scene_027_microBios::load() {
     GLuint indices;
     glGenBuffers(1,&indices);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER , indices);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, Faces.size() * sizeof(unsigned int), &Faces[0], GL_STATIC_DRAW);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(Faces), Faces, GL_STATIC_DRAW);
 
     //glEnable(GL_CULL_FACE);
     glFrontFace(GL_CW);
+
+    
 
     glEnable(GL_DEPTH_TEST);
     glDepthFunc(GL_LEQUAL);
@@ -115,9 +120,13 @@ void Scene_027_microBios::draw()
     shader.use();
     shader.setMatrix4("mv_matrix", transform);
     shader.setMatrix4("proj_matrix", proj);
+
+    shader.setFloat("TessLevelInner",3.0);
+    shader.setFloat("TessLevelOuter",3.0);
+    
     glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
     
-    glDrawElements(GL_TRIANGLES,Faces.size(),GL_UNSIGNED_INT, (void*) 0 );
+    glDrawElements(GL_TRIANGLE_STRIP,indexCount,GL_UNSIGNED_SHORT, 0 );
     
     
 }

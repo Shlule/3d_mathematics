@@ -1,46 +1,46 @@
-22-11-10 10:23:54 INFO : 	Subsystems initialised
-22-11-10 10:23:54 INFO : 	WindowSdl initialised
-22-11-10 10:23:54 INFO : 	OpenGL Context initialised
-22-11-10 10:23:54 INFO : 	GLEW initialised
-22-11-10 10:23:54 INFO : 	Renderer: NVIDIA GeForce GTX 960/PCIe/SSE2
-22-11-10 10:23:54 INFO : 	OpenGL version supported 4.4.0 NVIDIA 512.15
-22-11-10 10:23:54 INFO : 	-----------------------------
-22-11-10 10:23:54 INFO : 	GL Context Params:
-22-11-10 10:23:54 INFO : 	GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS 192
-22-11-10 10:23:54 INFO : 	GL_MAX_CUBE_MAP_TEXTURE_SIZE 16384
-22-11-10 10:23:54 INFO : 	GL_MAX_DRAW_BUFFERS 8
-22-11-10 10:23:54 INFO : 	GL_MAX_FRAGMENT_UNIFORM_COMPONENTS 4096
-22-11-10 10:23:54 INFO : 	GL_MAX_TEXTURE_IMAGE_UNITS 32
-22-11-10 10:23:54 INFO : 	GL_MAX_TEXTURE_SIZE 16384
-22-11-10 10:23:54 INFO : 	GL_MAX_VARYING_FLOATS 124
-22-11-10 10:23:54 INFO : 	GL_MAX_VERTEX_ATTRIBS 16
-22-11-10 10:23:54 INFO : 	GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS 32
-22-11-10 10:23:54 INFO : 	GL_MAX_VERTEX_UNIFORM_COMPONENTS 4096
-22-11-10 10:23:54 INFO : 	GL_MAX_VIEWPORT_DIMS 16384 16384
-22-11-10 10:23:54 INFO : 	GL_STEREO 0
-22-11-10 10:23:54 INFO : 	
-22-11-10 10:23:54 INFO : 	program 3 GL_VALIDATE_STATUS = 1
-22-11-10 10:23:54 INFO : 	-----------------------------
-22-11-10 10:23:54 INFO : 	Shader programme 3 info:
-22-11-10 10:23:54 INFO : 	GL_LINK_STATUS = 1
-22-11-10 10:23:54 INFO : 	GL_ATTACHED_SHADERS = 2
-22-11-10 10:23:54 INFO : 	GL_ACTIVE_ATTRIBUTES = 1
-22-11-10 10:23:54 INFO : 	  0) type:vec4 name:position location:0
-22-11-10 10:23:54 INFO : 	GL_ACTIVE_UNIFORMS = 2
-22-11-10 10:23:54 INFO : 	  0) type:mat4 name:mv_matrix location:0
-22-11-10 10:23:54 INFO : 	  1) type:mat4 name:proj_matrix location:1
-22-11-10 10:23:54 INFO : 	program info log for GL index3
-22-11-10 10:23:54 INFO : 	
-22-11-10 10:23:54 DEBUG: 	 --- OpenGL -------------------
+22-11-10 16:26:17 INFO : 	Subsystems initialised
+22-11-10 16:26:18 INFO : 	WindowSdl initialised
+22-11-10 16:26:18 INFO : 	OpenGL Context initialised
+22-11-10 16:26:18 INFO : 	GLEW initialised
+22-11-10 16:26:18 INFO : 	Renderer: NVIDIA GeForce GTX 960/PCIe/SSE2
+22-11-10 16:26:18 INFO : 	OpenGL version supported 4.4.0 NVIDIA 512.15
+22-11-10 16:26:18 INFO : 	-----------------------------
+22-11-10 16:26:18 INFO : 	GL Context Params:
+22-11-10 16:26:18 INFO : 	GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS 192
+22-11-10 16:26:18 INFO : 	GL_MAX_CUBE_MAP_TEXTURE_SIZE 16384
+22-11-10 16:26:18 INFO : 	GL_MAX_DRAW_BUFFERS 8
+22-11-10 16:26:18 INFO : 	GL_MAX_FRAGMENT_UNIFORM_COMPONENTS 4096
+22-11-10 16:26:18 INFO : 	GL_MAX_TEXTURE_IMAGE_UNITS 32
+22-11-10 16:26:18 INFO : 	GL_MAX_TEXTURE_SIZE 16384
+22-11-10 16:26:18 INFO : 	GL_MAX_VARYING_FLOATS 124
+22-11-10 16:26:18 INFO : 	GL_MAX_VERTEX_ATTRIBS 16
+22-11-10 16:26:18 INFO : 	GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS 32
+22-11-10 16:26:18 INFO : 	GL_MAX_VERTEX_UNIFORM_COMPONENTS 4096
+22-11-10 16:26:18 INFO : 	GL_MAX_VIEWPORT_DIMS 16384 16384
+22-11-10 16:26:18 INFO : 	GL_STEREO 0
+22-11-10 16:26:18 INFO : 	
+22-11-10 16:26:18 INFO : 	program 3 GL_VALIDATE_STATUS = 1
+22-11-10 16:26:18 INFO : 	-----------------------------
+22-11-10 16:26:18 INFO : 	Shader programme 3 info:
+22-11-10 16:26:18 INFO : 	GL_LINK_STATUS = 1
+22-11-10 16:26:18 INFO : 	GL_ATTACHED_SHADERS = 2
+22-11-10 16:26:18 INFO : 	GL_ACTIVE_ATTRIBUTES = 1
+22-11-10 16:26:18 INFO : 	  0) type:vec4 name:position location:0
+22-11-10 16:26:18 INFO : 	GL_ACTIVE_UNIFORMS = 2
+22-11-10 16:26:18 INFO : 	  0) type:mat4 name:mv_matrix location:0
+22-11-10 16:26:18 INFO : 	  1) type:mat4 name:proj_matrix location:1
+22-11-10 16:26:18 INFO : 	program info log for GL index3
+22-11-10 16:26:18 INFO : 	
+22-11-10 16:26:18 DEBUG: 	 --- OpenGL -------------------
                                 message (164): Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
                                 source: API
                                 type: Other
                                 id: 131185
                                 severity: Notification
-22-11-10 10:23:54 DEBUG: 	 --- OpenGL -------------------
+22-11-10 16:26:18 DEBUG: 	 --- OpenGL -------------------
                                 message (172): Buffer detailed info: Buffer object 2 (bound to GL_ELEMENT_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
                                 source: API
                                 type: Other
                                 id: 131185
                                 severity: Notification
-22-11-10 10:24:22 INFO : 	Bye :)
+22-11-10 16:26:20 INFO : 	Bye :)
