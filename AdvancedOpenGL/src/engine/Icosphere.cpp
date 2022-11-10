@@ -87,7 +87,7 @@ for(auto i = verticesP.begin(); i!= verticesP.end();i++){
     }
 }
 // this function is WIP
-void Icosphere::subdivideVerticesFlat(){
+/*void Icosphere::subdivideVerticesFlat(){
     vector<float> tmpVertices;
     vector<unsigned int> tmpIndices;
     int indexCount;
@@ -97,7 +97,7 @@ void Icosphere::subdivideVerticesFlat(){
     
 
     //iteration
-    for (int i=1; i<= subdivision; i++){
+   for (int i=1; i<= subdivision; i++){
 
         //copy prev array
         tmpVertices = vertices;
@@ -125,8 +125,19 @@ void Icosphere::subdivideVerticesFlat(){
             computeHalfVertex(v1, v3, radius, newV3);
 
             // add 4 new triangles
+            addTriangle(v1, newV1, newV3);
+            addIndices(index, index+1, index+2);
+
+            addTriangle(newV1, v2, newV2);
+            addIndices(index+3, index+4, index+5);
+
+            addTriangle(newV1, newV2, newV3);
+            addIndices(index+6, index+7, index+8);
+
+            addTriangle(newV3, newV2, v3);
+            addIndices(index+9, index+10, index+11);
         }
 
 
     }
-}
+}*/

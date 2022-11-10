@@ -50,16 +50,45 @@ void Scene_027_microBios::load() {
         vertexPositions[i] = x[i];
         std::cout<<vertexPositions[i]<<'\n';
     }
-    
 
-    // Generate data and put it in buffer object
+    Faces = {
+        2, 1, 0,
+        3, 2, 0,
+        4, 3, 0,
+        5, 4, 0,
+        1, 5, 0,
+        11, 6,  7,
+        11, 7,  8,
+        11, 8,  9,
+        11, 9,  10,
+        11, 10, 6,
+        1, 2, 6,
+        2, 3, 7,
+        3, 4, 8,
+        4, 5, 9,
+        5, 1, 10,
+        2,  7, 6,
+        3,  8, 7,
+        4,  9, 8,
+        5, 10, 9,
+        1, 6, 10 };
+
+    int IndexCount = sizeof(Faces)/ sizeof(Faces[0]);
+    
+    
+    // create VBO for positions:
     glGenBuffers(1, &buffer);
     glBindBuffer(GL_ARRAY_BUFFER, buffer);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertexPositions), vertexPositions, GL_STATIC_DRAW);
 
-    // Setup vertex attribute
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, nullptr);
     glEnableVertexAttribArray(0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3*sizeof(float), nullptr);
+    
+    // Cretae VBO for indices:
+    GLuint indices;
+    glGenBuffers(1,&indices);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER , indices);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, Faces.size() * sizeof(unsigned int), &Faces[0], GL_STATIC_DRAW);
 
     //glEnable(GL_CULL_FACE);
     glFrontFace(GL_CW);
@@ -73,23 +102,22 @@ void Scene_027_microBios::load() {
 
 void Scene_027_microBios::update(float dt) {
     const float t = Timer::getTimeSinceStart() * 0.3f;
-    transform = Matrix4::createTranslation(Vector3(0.0f, 0.0f, -4.0f));
-       /* Matrix4::createTranslation(Vector3(Maths::sin(2.1f * t) * 0.5f, Maths::cos(1.7f * t) * 0.5f, Maths::sin(1.3f * t) * Maths::cos(1.5f * t) * 2.0f))
+    transform = Matrix4::createTranslation(Vector3(0.0f, 0.0f, -4.0f))
+        * Matrix4::createTranslation(Vector3(Maths::sin(2.1f * t) * 0.5f, Maths::cos(1.7f * t) * 0.5f, Maths::sin(1.3f * t) * Maths::cos(1.5f * t) * 2.0f))
         * Matrix4::createRotationY(t * 45.0f / 10.0f)
-        * Matrix4::createRotationX(t * 81.0f / 10.0f);*/
+        * Matrix4::createRotationX(t * 81.0f / 10.0f);
 }
 
 void Scene_027_microBios::draw()
 {
    static const GLfloat bgColor[] = {0.0f, 0.0f, 0.2f, 1.0f};
-    glClearBufferfv(GL_COLOR, 0, bgColor);
     
     shader.use();
     shader.setMatrix4("mv_matrix", transform);
     shader.setMatrix4("proj_matrix", proj);
     glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
     
-    glDrawArrays(GL_LINE_STRIP, 0, 36);
+    glDrawElements(GL_TRIANGLES,Faces.size(),GL_UNSIGNED_INT, (void*) 0 );
     
     
 }

@@ -28,6 +28,8 @@ private:
     const float timeScale = 0.05f;
     MeshObject object;
 
+    std::vector<unsigned int> Faces;
+
     // Uniforms
     Matrix4 transform;
     Matrix4 mvp;
