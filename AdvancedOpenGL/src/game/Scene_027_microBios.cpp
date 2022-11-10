@@ -37,7 +37,7 @@ void Scene_027_microBios::handleEvent(const InputState &inputState) {
 
 void Scene_027_microBios::load() {
     std::srand((int) std::time(nullptr));
-    Assets::loadShader(SHADER_VERT(SHADER_NAME),SHADER_PATH_+"007_SpinningCube.frag","","","", SHADER_ID(SHADER_NAME));
+    Assets::loadShader(SHADER_VERT(SHADER_NAME),SHADER_PATH_+"007_SpinningCube.frag",SHADER_TECS(SHADER_NAME),SHADER_TESE(SHADER_NAME),SHADER_GEOM(SHADER_NAME), SHADER_ID(SHADER_NAME));
 
     // create a VAO 
     glGenVertexArrays(1, &vao);
@@ -126,7 +126,7 @@ void Scene_027_microBios::draw()
     
     glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
     
-    glDrawElements(GL_TRIANGLE_STRIP,indexCount,GL_UNSIGNED_SHORT, 0 );
+    glDrawElements(GL_PATCHES,indexCount,GL_UNSIGNED_SHORT, 0 );
     
     
 }

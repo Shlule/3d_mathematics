@@ -6,6 +6,16 @@ layout(vertices = 3 ) out;
 in vec3 vPosition[];
 out vec3 tcPosition[];
 
+in VS_OUT
+{
+    vec4 color;
+} fs_in;
+
+out VS_OUT
+{
+    vec4 color;
+} vs_out;
+
 uniform float TessLevelInner;
 uniform float TessLevelOuter;
 

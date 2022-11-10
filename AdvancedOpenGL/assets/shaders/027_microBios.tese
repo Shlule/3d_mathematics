@@ -6,6 +6,16 @@ in vec3 tcPosition[];
 out vec3 tePosition;
 out vec3 tePatchDistance;
 
+in VS_OUT
+{
+    vec4 color;
+} fs_in;
+
+out VS_OUT
+{
+    vec4 color;
+} vs_out;
+
 uniform mat4 proj_Matrix;
 uniform mat4 mv_Matrix;
 

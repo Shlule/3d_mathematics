@@ -6,6 +6,16 @@ uniform mat4 mv_Matrix;
 layout(triangles) in;
 layout(triangle_strip, max_vertices = 3) out;
 
+in VS_OUT
+{
+    vec4 color;
+} fs_in;
+
+out VS_OUT
+{
+    vec4 color;
+} vs_out;
+
 in vec3 tePosition[3];
 in vec3 tePatchDistance[3];
 
