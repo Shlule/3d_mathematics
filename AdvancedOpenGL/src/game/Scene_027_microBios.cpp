@@ -37,21 +37,23 @@ void Scene_027_microBios::handleEvent(const InputState &inputState) {
 
 void Scene_027_microBios::load() {
     std::srand((int) std::time(nullptr));
-    Assets::loadShader(SHADER_VERT(SHADER_NAME),SHADER_PATH_+"007_SpinningCube.frag",SHADER_TECS(SHADER_NAME),SHADER_TESE(SHADER_NAME),SHADER_GEOM(SHADER_NAME), SHADER_ID(SHADER_NAME));
+    Assets::loadShader(SHADER_VERT(SHADER_NAME),SHADER_FRAG(SHADER_NAME),SHADER_TECS(SHADER_NAME),SHADER_TESE(SHADER_NAME),"", SHADER_ID(SHADER_NAME));
 
     // create a VAO 
     glGenVertexArrays(1, &vao);
     glBindVertexArray(vao);
     // set the projection matrix4
     proj = Matrix4::createPerspectiveFOV(70.0f, game->windowWidth, game->windowHeight, 0.1f, 1000.0f);
+    
+    //create icosahedron
     vector<float> x = icosphere.computeIcosahedronVertices();
-
     static  GLfloat vertexPositions[36];
     for(int i = 0; i < x.size(); i++) 
     {
         vertexPositions[i] = x[i];
         std::cout<<vertexPositions[i]<<'\n';
     }
+
 
     static const GLushort Faces[] = {
         2, 1, 0,
@@ -94,39 +96,40 @@ void Scene_027_microBios::load() {
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(Faces), Faces, GL_STATIC_DRAW);
 
     //glEnable(GL_CULL_FACE);
-    glFrontFace(GL_CW);
-
-    
-
-    glEnable(GL_DEPTH_TEST);
-    glDepthFunc(GL_LEQUAL);
+    glPolygonMode(GL_FRONT_AND_BACK,GL_LINE);
 
     shader = Assets::getShader(SHADER_ID(SHADER_NAME));
+    
 
 }
 
 void Scene_027_microBios::update(float dt) {
     const float t = Timer::getTimeSinceStart() * 0.3f;
-    transform = Matrix4::createTranslation(Vector3(0.0f, 0.0f, -4.0f))
+    view = Matrix4::createTranslation(Vector3(0.0f, 0.0f, -4.0f))
         * Matrix4::createTranslation(Vector3(Maths::sin(2.1f * t) * 0.5f, Maths::cos(1.7f * t) * 0.5f, Maths::sin(1.3f * t) * Maths::cos(1.5f * t) * 2.0f))
         * Matrix4::createRotationY(t * 45.0f / 10.0f)
         * Matrix4::createRotationX(t * 81.0f / 10.0f);
+    
 }
+unsigned int cpt {0};
 
 void Scene_027_microBios::draw()
 {
    static const GLfloat bgColor[] = {0.0f, 0.0f, 0.2f, 1.0f};
-    
-    shader.use();
-    shader.setMatrix4("mv_matrix", transform);
-    shader.setMatrix4("proj_matrix", proj);
 
-    shader.setFloat("TessLevelInner",3.0);
-    shader.setFloat("TessLevelOuter",3.0);
+    shader.use();
+    shader.setMatrix4("mvp_matrix", proj * view );
+    shader.setMatrix4("mv_matrix", view);
+    shader.setMatrix4("proj_matrix", proj);
+    double animation= sin(((double)cpt*3.0f)/60.0f)*5.0f+ 5;
+
+    shader.setFloat("TessLevelInner",animation);
+    shader.setFloat("TessLevelOuter",animation);
     
-    glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
+    
     
     glDrawElements(GL_PATCHES,indexCount,GL_UNSIGNED_SHORT, 0 );
     
+    cpt++;
     
 }

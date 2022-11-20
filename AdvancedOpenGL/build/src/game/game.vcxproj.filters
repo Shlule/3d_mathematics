@@ -1,112 +1,112 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Apple.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Apple.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\CubeMesh.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\CubeMesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\CubeOject.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\CubeOject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Game.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\SceneMain.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\SceneMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_001_Color.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_001_Color.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_002_Point.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_002_Point.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_003_Triangle.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_003_Triangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_004_PassingData.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_004_PassingData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_005_Tessellation.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_005_Tessellation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_006_Fragment.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_006_Fragment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_007_SpinningCube.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_007_SpinningCube.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_008_SpinningCubes.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_008_SpinningCubes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_009_TextureAsData.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_009_TextureAsData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_010_TextureCoordinates.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_010_TextureCoordinates.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_011_MipmapTunnel.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_011_MipmapTunnel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_012_ArrayTextureAlienRain.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_012_ArrayTextureAlienRain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_013_InstancedGrassBlades.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_013_InstancedGrassBlades.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_014_IndirectDrawAstroids.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_014_IndirectDrawAstroids.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_015_TessellationModes.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_015_TessellationModes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_016_TerrainRendering.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_016_TerrainRendering.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_017_CubicBezierPatches.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_017_CubicBezierPatches.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_018_DiscardGeometry.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_018_DiscardGeometry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_019_ModifyGeometry.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_019_ModifyGeometry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_020_GenerateGeometry.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_020_GenerateGeometry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_021_ChangePrimitiveType.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_021_ChangePrimitiveType.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_022_ComputeShaderPrefixSum.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_022_ComputeShaderPrefixSum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_023_ComputeShaderGrid.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_023_ComputeShaderGrid.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_024_ComputeShaderRaytacing.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_024_ComputeShaderRaytacing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_025_ComputeShaderBoids.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_025_ComputeShaderBoids.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_026_Snake.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_026_Snake.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Scene_027_microBios.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Scene_027_microBios.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\Snake.cpp">
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\Snake.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\game\CMakeLists.txt" />
+    <CustomBuild Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\game\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{3B514B57-145D-36E4-9741-DA124BE66E37}</UniqueIdentifier>
+      <UniqueIdentifier>{EF945F25-E277-31C0-8154-809466680373}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

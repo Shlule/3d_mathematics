@@ -1,4 +1,4 @@
-# Install script for directory: D:/Elouan/Git/3d_mathematics/AdvancedOpenGL/src/engine
+# Install script for directory: C:/SchoolWork/3d_mathematics/AdvancedOpenGL/src/engine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Elouan/Git/3d_mathematics/AdvancedOpenGL/build/src/engine/maths/cmake_install.cmake")
+  include("C:/SchoolWork/3d_mathematics/AdvancedOpenGL/build/src/engine/maths/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Elouan/Git/3d_mathematics/AdvancedOpenGL/build/src/engine/input/cmake_install.cmake")
+  include("C:/SchoolWork/3d_mathematics/AdvancedOpenGL/build/src/engine/input/cmake_install.cmake")
 endif()
 

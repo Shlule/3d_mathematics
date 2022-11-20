@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\build\CMakeFiles\6ad2aca314308211b79b3bdbd2259e55\RUN_TESTS_force.rule">
+    <CustomBuild Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\build\CMakeFiles\6befc35b8a2d5c686bc98c54888c4496\RUN_TESTS_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{42EF4E0A-48A0-312C-95BF-AEFE26A1C1E4}</UniqueIdentifier>
+      <UniqueIdentifier>{543F6266-E15E-389C-963D-DF434964CBEE}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{43032BCB-FBAD-311C-865B-751F5DAB173E}</ProjectGuid>
+    <ProjectGuid>{B9F49F55-7BAC-3311-8202-B424557286CF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\build\src\engine\input\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\SchoolWork\3d_mathematics\AdvancedOpenGL\build\src\engine\input\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\build\src\engine\input\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\SchoolWork\3d_mathematics\AdvancedOpenGL\build\src\engine\input\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\build\src\engine\input\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\SchoolWork\3d_mathematics\AdvancedOpenGL\build\src\engine\input\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">input.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">input</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\build\src\engine\input\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\SchoolWork\3d_mathematics\AdvancedOpenGL\build\src\engine\input\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">input.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">input</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -95,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,7 +111,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -128,10 +128,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -161,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +177,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -193,10 +193,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\SDL2-2.0.12\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\external\glew-2.1.0\include;C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,11 +208,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input\CMakeLists.txt">
+    <CustomBuild Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Elouan/Git/3d_mathematics/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/SchoolWork/3d_mathematics/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\Users\elouan.rogliano\scoop\apps\cmake\3.24.3\bin\cmake.exe -SD:/Elouan/Git/3d_mathematics/AdvancedOpenGL -BD:/Elouan/Git/3d_mathematics/AdvancedOpenGL/build --check-stamp-file D:/Elouan/Git/3d_mathematics/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SchoolWork/3d_mathematics/AdvancedOpenGL -BC:/SchoolWork/3d_mathematics/AdvancedOpenGL/build --check-stamp-file C:/SchoolWork/3d_mathematics/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,11 +221,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\SchoolWork\3d_mathematics\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Elouan/Git/3d_mathematics/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/SchoolWork/3d_mathematics/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\Users\elouan.rogliano\scoop\apps\cmake\3.24.3\bin\cmake.exe -SD:/Elouan/Git/3d_mathematics/AdvancedOpenGL -BD:/Elouan/Git/3d_mathematics/AdvancedOpenGL/build --check-stamp-file D:/Elouan/Git/3d_mathematics/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SchoolWork/3d_mathematics/AdvancedOpenGL -BC:/SchoolWork/3d_mathematics/AdvancedOpenGL/build --check-stamp-file C:/SchoolWork/3d_mathematics/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,11 +234,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\SchoolWork\3d_mathematics\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Elouan/Git/3d_mathematics/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/SchoolWork/3d_mathematics/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\Users\elouan.rogliano\scoop\apps\cmake\3.24.3\bin\cmake.exe -SD:/Elouan/Git/3d_mathematics/AdvancedOpenGL -BD:/Elouan/Git/3d_mathematics/AdvancedOpenGL/build --check-stamp-file D:/Elouan/Git/3d_mathematics/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SchoolWork/3d_mathematics/AdvancedOpenGL -BC:/SchoolWork/3d_mathematics/AdvancedOpenGL/build --check-stamp-file C:/SchoolWork/3d_mathematics/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,11 +247,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\SchoolWork\3d_mathematics\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Elouan/Git/3d_mathematics/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/SchoolWork/3d_mathematics/AdvancedOpenGL/src/engine/input/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\Users\elouan.rogliano\scoop\apps\cmake\3.24.3\bin\cmake.exe -SD:/Elouan/Git/3d_mathematics/AdvancedOpenGL -BD:/Elouan/Git/3d_mathematics/AdvancedOpenGL/build --check-stamp-file D:/Elouan/Git/3d_mathematics/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SchoolWork/3d_mathematics/AdvancedOpenGL -BC:/SchoolWork/3d_mathematics/AdvancedOpenGL/build --check-stamp-file C:/SchoolWork/3d_mathematics/AdvancedOpenGL/build/src/engine/input/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,19 +260,19 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\SchoolWork\3d_mathematics\AdvancedOpenGL\build\src\engine\input\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input\InputManager.cpp" />
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input\Input_ControllerState.cpp" />
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input\Input_KeyboardState.cpp" />
-    <ClCompile Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\src\engine\input\Input_MouseState.cpp" />
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input\InputManager.cpp" />
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input\Input_ControllerState.cpp" />
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input\Input_KeyboardState.cpp" />
+    <ClCompile Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\src\engine\input\Input_MouseState.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\build\ZERO_CHECK.vcxproj">
-      <Project>{11B6D995-250D-3F90-AE64-921AFC4F261A}</Project>
+    <ProjectReference Include="C:\SchoolWork\3d_mathematics\AdvancedOpenGL\build\ZERO_CHECK.vcxproj">
+      <Project>{5D8B3551-EA47-3F2E-9166-5A68C203147A}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

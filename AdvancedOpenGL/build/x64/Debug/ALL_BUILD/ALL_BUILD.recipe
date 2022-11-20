@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\SchoolWork\3d_mathematics\AdvancedOpenGL\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\build\Debug\OpenGLTraining.exe</FullPath>
+      <FullPath>C:\SchoolWork\3d_mathematics\AdvancedOpenGL\build\Debug\OpenGLTraining.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Elouan\Git\3d_mathematics\AdvancedOpenGL\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\SchoolWork\3d_mathematics\AdvancedOpenGL\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
